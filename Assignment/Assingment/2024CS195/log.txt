@@ -1,0 +1,50 @@
+index no :-24001953 
+name:-A.K.D Silva
+                    
+                           C assignment log file
+
+   >>>GRID SETUP<<<
+
+1)Floor map
+
+~All floors were taken as 10*25 cell grids.
+~Walls, Stairs, Poles, Flag are only added in the standing area.
+~Error messages will be printed for invalid stair and pole entries and ignored.
+       
+2)Stairs
+ >>Implemented the maximum amount of satirs that can be loaded into the program to be 20.
+ 
+3)Poles
+ >>Maximun poles that can be loaded into the program is 20.
+ >>Checks for invalid poles which could be diagonal.
+
+4)Walls
+ >>maximunm walls = 20.
+ >>Invalid diagonal walls are ignored using an if condition to check the width of horzontal walls and lenght of vertical walls.
+ 
+5)Flag
+ >> Invalid flag locations are checked and the program terminates if it is found so.
+
+   >>>RULES<<<
+
+1)Rule 4
+ >>
+ 
+2)Rule 5
+3)Rule 6
+ >> The direction of stairs is changed randomly after 5 rounds
+
+4)Rule 7
+ >>
+
+5)Rule 8
+ >>
+6)Rule 9
+7)Rule 10
+8)Rule 11
+9)Rule 12
+10)Rule 13
+
+
+header files :- bawana.h,flag.h,gameply.h,grid.h,players.h,stairs_poles_walls.h
+hard code file :- hard_code.c
